@@ -80,35 +80,45 @@ Provides tailored recommendations instead of generic listings.
                  ▼
       Personalized Results
 
-    📐 Detailed AI Agent Architecture
+📐 Detailed AI Agent Architecture
     <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5c516fea-716f-4c73-ba2b-19d76373c908" />
 
     ##✅ AI Workflow Diagram
           ## 🏗️ System Architecture
 
-```text
-User Opens Website
+    User Opens Website
         │
         ▼
-Enter Preferences
+    Enter Preferences
         │
         ▼
-AI Agent Receives Query
+    AI Agent Receives Query
         │
         ▼
-Analyze User Profile
+    Analyze User Profile
         │
         ▼
-Search Opportunity Database
+    Search Opportunity Database
         │
         ▼
-Rank Best Matches
+    Rank Best Matches
         │
         ▼
-Display Results
+    Display Results
+
+
 
 📐 Detailed AI Workflow Diagram
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/5f1ce019-4c73-43ea-ad28-7986603f1b10" />
+
+##AI Agent Sequence Diagram
+
+<img width="529" height="665" alt="image" src="https://github.com/user-attachments/assets/7710431a-92d0-46b2-ad4f-912d673d36e1" />
+
+##Database Schema Diagram
+
+<img width="475" height="662" alt="image" src="https://github.com/user-attachments/assets/826e6f78-c75f-4da3-bf1a-6c656eba3942" />
+
 
 🚀 Technology Stack
 🎨 Frontend
@@ -158,7 +168,7 @@ Reduces information overload
 Helps students discover hidden opportunities
 
 📸 Screenshots
-1. 🏠 Homepage 
+ 1. 🏠 Homepage 
 <img width="1896" height="909" alt="image" src="https://github.com/user-attachments/assets/3639c8e5-81fc-4ddf-8ffe-bc1b38ca778b" />
 
 ### 🎓 Matched Opportunities Dashboard
@@ -166,18 +176,18 @@ Helps students discover hidden opportunities
 🎯 Opportunity Results (Most Important ⭐)
 <img width="705" height="749" alt="image" src="https://github.com/user-attachments/assets/36f92fd3-967f-4ce9-8ef3-c27455d14974" />
 
-📂 Project Structure
-ScholarPath-AI/
-│
-├── app/
-├── components/
-├── public/
-├── services/
-├── agents/
-├── data/
-├── utils/
-├── README.md
-└── package.json
+    📂 Project Structure
+    ScholarPath-AI/
+      │
+      ├── app/
+      ├── components/
+      ├── public/
+      ├── services/
+      ├── agents/
+      ├── data/
+      ├── utils/
+      ├── README.md
+      └── package.json
 
 ⚙️ Installation
 npm install
