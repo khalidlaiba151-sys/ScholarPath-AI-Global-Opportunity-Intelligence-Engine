@@ -47,6 +47,7 @@ Fellowships
 Research Programs
 Competitions
 Conferences
+
 📊 Intelligent Ranking System
 
 Ranks opportunities based on relevance and compatibility.
@@ -55,8 +56,37 @@ Ranks opportunities based on relevance and compatibility.
 
 Provides tailored recommendations instead of generic listings.
 
-🏗 System Architecture
+    🏗 System Architecture
 
+               User
+                 │
+                 ▼
+        ScholarPath Frontend
+                 │
+                 ▼
+      Intelligent Search Engine
+                 │
+                 ▼
+         Google ADK Agent
+                 │
+      ┌──────────┼──────────┐
+      ▼          ▼          ▼
+    Filters     Ranking     Matching
+      │          │          │
+      └──────────┼──────────┘
+                 ▼
+       Opportunity Database
+                 │
+                 ▼
+      Personalized Results
+
+    📐 Detailed AI Agent Architecture
+    <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5c516fea-716f-4c73-ba2b-19d76373c908" />
+
+    ##✅ AI Workflow Diagram
+          ## 🏗️ System Architecture
+
+```text
 User Opens Website
         │
         ▼
@@ -76,36 +106,6 @@ Rank Best Matches
         │
         ▼
 Display Results
-
-📐 Detailed AI Agent Architecture
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5c516fea-716f-4c73-ba2b-19d76373c908" />
-
-✅ AI Workflow Diagram
-User
-   │
-   ▼
-Enter Preferences
-   │
-   ▼
-AI Receives Query
-   │
-   ▼
-Validate Input
-   │
-   ▼
-Search Database
-   │
-   ▼
-Filter Opportunities
-   │
-   ▼
-Rank Best Matches
-   │
-   ▼
-Generate Results
-   │
-   ▼
-Display Cards
 
 📐 Detailed AI Workflow Diagram
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/5f1ce019-4c73-43ea-ad28-7986603f1b10" />
