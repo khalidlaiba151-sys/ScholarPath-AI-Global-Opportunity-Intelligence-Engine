@@ -176,6 +176,9 @@ Helps students discover hidden opportunities
 🎯 Opportunity Results (Most Important ⭐)
 <img width="705" height="749" alt="image" src="https://github.com/user-attachments/assets/36f92fd3-967f-4ce9-8ef3-c27455d14974" />
 
+🎥 Demo Video
+https://youtu.be/TlqQadi7XwY
+
     📂 Project Structure
     ScholarPath-AI/
       │
